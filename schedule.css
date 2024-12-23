@@ -2,3 +2,16 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
   }
+
+#schedule {
+    width: 100%;
+}
+
+#schedule td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+tr:nth-child(even)  {
+    background-color: #f2f2f2;
+}
