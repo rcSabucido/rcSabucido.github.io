@@ -101,7 +101,6 @@ body {
 
 .project-section {
     text-align: center;
-    padding-bottom: 40px;
 }
 
 .project-container {
@@ -127,3 +126,29 @@ body {
     margin-bottom: 10px;
 }
 
+.cert-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.cert-section {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.cert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cert-info {
+    max-width: 200px;
+}
+
+.cert-text {
+    font-size: 14px;
+    font-weight: lighter;
+}
