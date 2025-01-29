@@ -83,3 +83,11 @@ body {
     background-color: #1f4b94;
   transform: translateY(4px);
 }
+
+.project-section img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3B82F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
