@@ -12,6 +12,10 @@ a {
     color: #f9faf8;
 }
 
+a:hover {
+    text-shadow: 0 0 5px #f9faf8;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -99,6 +103,7 @@ html {
     border: 4px solid #3B82F6;
     border-radius: 15px;
     margin-bottom: 10px;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 #project-title {
@@ -127,12 +132,23 @@ html {
     font-weight: lighter;
 }
 
+.project-info img:hover {
+    color: #3B82F6;
+    box-shadow: 0 0 100px #3B82F6;
+}
+
 .cert-section img {
     width: 200px;
     height: 200px;
     border: 4px solid #3B82F6;
     border-radius: 10%;
     margin-bottom: 10px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.cert-info img:hover {
+    color: #3B82F6;
+    box-shadow: 0 0 100px #3B82F6;
 }
 
 .cert-title {
@@ -220,6 +236,11 @@ html {
 .action-icons {
     display: flex;
     gap: 10px;
+    
+}
+
+.action-icons img:hover{
+    box-shadow: 0 0 30px 10px #f9faf8;
 }
 
 .footer {
