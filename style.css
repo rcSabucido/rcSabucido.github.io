@@ -152,3 +152,28 @@ body {
     font-size: 14px;
     font-weight: lighter;
 }
+
+.quote-section {
+    text-align: center;
+    background-color: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.quote-text {
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.quote-credit {
+    display:flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 300px;
+    font-weight: bold;
+}
