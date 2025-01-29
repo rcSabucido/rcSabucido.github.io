@@ -212,3 +212,15 @@ body {
     display: flex;
     gap: 10px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 16px;
+}
+
+.footer-text {
+    color: #e5e7eb;
+}
