@@ -7,7 +7,12 @@ body {
     margin: 0;
 }
 
-.header {
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+#header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -15,7 +20,7 @@ body {
     padding: 8px 16px;
 }
 
-.header p {
+#header p {
     font-size: 24px;
     font-weight: bold;
     left: 40px;
@@ -92,7 +97,7 @@ body {
     margin-bottom: 10px;
 }
 
-.project-title {
+#project-title {
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 32px;
@@ -178,7 +183,7 @@ body {
     font-weight: bold;
 }
 
-.action-container {
+#action-container {
     display: flex;
     justify-content: center;
     align-items: center;
