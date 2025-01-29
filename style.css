@@ -177,3 +177,38 @@ body {
     right: 300px;
     font-weight: bold;
 }
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-modal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3B82F6;
+    width: 1400px;
+    padding: 40px;
+    margin: 60px;
+    border-radius: 7px;
+}
+.action-text {
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+.action-text .action-bold {
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.action-icons {
+    display: flex;
+    gap: 10px;
+}
