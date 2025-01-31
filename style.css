@@ -80,12 +80,12 @@ html {
 
 .hero-button {
     font-family: Roboto, sans-serif;
-    width: 100px;
+    width: 90px;
     height: auto;
     font-weight: 800;
     border: none;
     border-radius: 5px;
-    padding: 10px 30px;
+    padding: 10px;
     background-color: #3B82F6;
     color: #e5e7eb;
 }
